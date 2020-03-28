@@ -10,6 +10,7 @@ class Constant {
         console.log('environemnt in const', process.env.NODE_ENV)
         var envVarible = process.env.NODE_ENV;
         
+        // pass the node environment by passing  NODE_ENV=dev or prod
 
         console.log('environemnt variable', envVarible)
 
